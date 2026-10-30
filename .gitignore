@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/
+*.pdf
+!tests/fixtures/*.pdf
+chroma/
+*.sqlite3
+*.gguf
+*.safetensors
+*.bin
+.cache/
+.idea/
+.vscode/
+
+# Project archive
+*.zip
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment files
+.env.*
+!.env.example
